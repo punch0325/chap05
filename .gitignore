@@ -1,4 +1,4 @@
-*.calsspath
+*.classpath
 *.project
 *.settings
 bin
