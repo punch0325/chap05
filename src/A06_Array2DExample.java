@@ -32,7 +32,7 @@ public class A06_Array2DExample {
 		}
 	
 		for (int i = 0; i<number.length; i++) {
-			for(int j = 0; j<number[i].length; j++) {
+			for(int j = 0; j<number[i].length; j++) {   //number[i].length : 기본 length메소드는 행의 갯수를 출력하지만, 행의 값을 준 length메소드는 해당 행의 열갯수를 출력
 				System.out.print(number[i][j] + "  ");
 			}
 			System.out.println();
